@@ -34,12 +34,7 @@
                     "path" : "goodsList/goodsList",
                     "style" :                                                                                    
                 {
-<<<<<<< HEAD
                 
-=======
-                    "navigationBarTitleText": "",
-                    "enablePullDownRefresh": false
->>>>>>> cate
                 }
                 
                 }

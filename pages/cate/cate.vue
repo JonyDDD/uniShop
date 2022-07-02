@@ -64,11 +64,7 @@
 			},
 			toGoodsDetail(item){
 				uni.navigateTo({
-<<<<<<< HEAD
 					url:'/subpkg/goodsList/goodsList?cid=' + item.cat_id
-=======
-					url:'/subpkg/goodsList/goodsList?id=' + item.cat_id
->>>>>>> cate
 				})
 			}
 		}
