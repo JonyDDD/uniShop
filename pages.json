@@ -17,19 +17,21 @@
 			"style": {
 			}
 		}
-	    ,{
-            "path" : "pages/goodList/goodList",
-            "style" :                                                                                    
-            {
-             
-            }
-            
-        }
+	    
     ],
 	"subPackages": [
 		{	"root": "subpkg",
 			"pages": [{
                     "path" : "goodsDetail/goodsDetail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "goodsList/goodsList",
                     "style" :                                                                                    
                 {
                     "navigationBarTitleText": "",
