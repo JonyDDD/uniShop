@@ -17,6 +17,28 @@
 			"style": {
 			}
 		}
+	    ,{
+            "path" : "pages/goodList/goodList",
+            "style" :                                                                                    
+            {
+             
+            }
+            
+        }
+    ],
+	"subPackages": [
+		{	"root": "subpkg",
+			"pages": [{
+                    "path" : "goodsDetail/goodsDetail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "#e555",

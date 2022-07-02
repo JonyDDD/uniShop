@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "cate-list": "/pages/home/CateList",
+    "floor": "/pages/home/Floor"
+  }
 }

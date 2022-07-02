@@ -3,9 +3,17 @@
     "pages/home/home",
     "pages/cate/cate",
     "pages/cart/cart",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/goodList/goodList"
   ],
-  "subPackages": [],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "goodsDetail/goodsDetail"
+      ]
+    }
+  ],
   "window": {
     "navigationBarTextStyle": "white",
     "navigationBarTitleText": "uni商城",
