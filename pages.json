@@ -17,14 +17,7 @@
 			"style": {
 			}
 		}
-	    ,{
-            "path" : "pages/goodList/goodList",
-            "style" :                                                                                    
-            {
-             
-            }
-            
-        }
+	    
     ],
 	"subPackages": [
 		{	"root": "subpkg",
@@ -34,6 +27,14 @@
                 {
                     "navigationBarTitleText": "",
                     "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "goodsList/goodsList",
+                    "style" :                                                                                    
+                {
+                
                 }
                 
                 }
