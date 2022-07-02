@@ -124,79 +124,9 @@ __webpack_require__.r(__webpack_exports__);
   !*** ./node_modules/babel-loader/lib!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/webpack-preprocess-loader??ref--12-1!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js!./node_modules/@dcloudio/vue-cli-plugin-uni/packages/vue-loader/lib??vue-loader-options!./node_modules/@dcloudio/webpack-uni-mp-loader/lib/style.js!/Users/jonyd/Documents/HBuilderProjects/uniShop2/pages/cate/cate.vue?vue&type=script&lang=js& ***!
   \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-/* WEBPACK VAR INJECTION */(function(uni) {Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var _regenerator = _interopRequireDefault(__webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ 19));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {try {var info = gen[key](arg);var value = info.value;} catch (error) {reject(error);return;}if (info.done) {resolve(value);} else {Promise.resolve(value).then(_next, _throw);}}function _asyncToGenerator(fn) {return function () {var self = this,args = arguments;return new Promise(function (resolve, reject) {var gen = fn.apply(self, args);function _next(value) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value);}function _throw(err) {asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err);}_next(undefined);});};} //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-var _default =
-{
-  data: function data() {
-    return {
-      wh: 0,
-      cateList: [],
-      cateLevel2: [],
-      activeIndex: 0,
-      // 滚动条距离顶部的距离
-      scrollTop: 0 };
-
-  },
-  onLoad: function onLoad() {
-    var sysInfo = uni.getSystemInfoSync();
-    console.log(sysInfo);
-    this.wh = sysInfo.windowHeight;
-    this.getCateInfo();
-  },
-  methods: {
-    getCateInfo: function getCateInfo() {var _this = this;return _asyncToGenerator( /*#__PURE__*/_regenerator.default.mark(function _callee() {var _yield$uni$$http$get, res;return _regenerator.default.wrap(function _callee$(_context) {while (1) {switch (_context.prev = _context.next) {case 0:_context.next = 2;return (
-
-
-                  uni.$http.get('/categories'));case 2:_yield$uni$$http$get = _context.sent;res = _yield$uni$$http$get.data;if (!(
-                res.meta.status !== 200)) {_context.next = 6;break;}return _context.abrupt("return", uni.$showMsg());case 6:
-                _this.cateList = res.message;
-                _this.cateLevel2 = res.message[0].children;case 8:case "end":return _context.stop();}}}, _callee);}))();
-
-    },
-    changeActive: function changeActive(index) {
-      this.activeIndex = index;
-      uni.showLoading({
-        title: '数据加载中',
-        duration: 300 });
-
-      this.cateLevel2 = this.cateList[index].children;
-      this.scrollTop = this.scrollTop ? 0 : 1;
-    },
-    toGoodsDetail: function toGoodsDetail(item) {
-      uni.navigateTo({
-        url: '/subpkg/goodsList/goodsList?cid=' + item.cat_id });
-
-    } } };exports.default = _default;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ 1)["default"]))
+throw new Error("Module build failed (from ./node_modules/@dcloudio/webpack-uni-mp-loader/lib/script.js):\nSyntaxError: Unexpected token (67:0)\n    at Object._raise (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:746:17)\n    at Object.raiseWithData (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:739:17)\n    at Object.raise (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:733:17)\n    at Object.unexpected (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:8807:16)\n    at Object.parseIdentifierName (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10823:18)\n    at Object.parseIdentifier (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10800:23)\n    at Object.parseMaybePrivateName (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10157:19)\n    at Object.parsePropertyName (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10624:126)\n    at Object.parseObjectMember (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10525:10)\n    at Object.parseObj (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10448:25)\n    at Object.parseExprAtom (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:10055:28)\n    at Object.parseExprSubscripts (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:9656:23)\n    at Object.parseMaybeUnary (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:9636:21)\n    at Object.parseMaybeUnary (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:6877:20)\n    at Object.parseExprOps (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:9506:23)\n    at Object.parseMaybeConditional (/Applications/HBuilderX.app/Contents/HBuilderX/plugins/uniapp-cli/node_modules/@babel/parser/lib/index.js:9479:23)");
 
 /***/ }),
 
